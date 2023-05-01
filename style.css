@@ -12,14 +12,14 @@ body {
   justify-content: center;
   align-items: center;
 
-  background-color:  hsl(212, 45%, 89%);
+  background-color: hsl(212, 45%, 89%);
 }
 
 .container {
   border-radius: 12px;
   width: 85%;
   background-color: white;
-  padding: 5%;  
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .qr-code {
@@ -31,7 +31,12 @@ body {
   align-items: center;
 }
 
-h4, p {
+.qr-code:last-child {
+  margin-bottom: 30px;
+}
+
+h4,
+p {
   width: 85%;
 }
 
@@ -46,10 +51,23 @@ p {
   font-weight: 400;
   color: hsl(220, 15%, 55%);
   text-align: center;
-  
 }
 
 img {
   width: 100%;
   border-radius: 12px;
-} 
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    width: 90%;
+    padding: 5%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 23%;
+    padding: 20px;
+  }
+}
