@@ -26,6 +26,13 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+h4, p {
+  width: 85%;
 }
 
 h4 {
@@ -35,9 +42,11 @@ h4 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 400;
-  color: hsl(220, 15%, 55%)
+  color: hsl(220, 15%, 55%);
+  text-align: center;
+  
 }
 
 img {
