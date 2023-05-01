@@ -7,4 +7,18 @@
 
 body {
   font-family: "Outfit", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.container {
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+} 
