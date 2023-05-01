@@ -11,12 +11,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  background-color:  hsl(212, 45%, 89%);
 }
 
 .container {
   border-radius: 12px;
   display: flex;
   align-items: center;
+  width: 85%;
+  background-color: white;
 }
 
 img {
