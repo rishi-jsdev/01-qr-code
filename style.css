@@ -48,12 +48,12 @@ body {
   margin-bottom: 30px;
 }
 
-h4,
+h1,
 p {
   width: 85%;
 }
 
-h4 {
+h1 {
   font-size: var(--header-font-size);
   font-weight: 700;
   color: var(--header-color);
